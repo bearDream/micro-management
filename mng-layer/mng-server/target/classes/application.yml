@@ -1,0 +1,15 @@
+appId: mng-server
+
+server:
+  port: 8088
+mandal:
+  scan:
+    basePackages: cn.ching.mng
+protocol:
+  id: rmi
+  name: rmi
+  port: 6666
+registry:
+  address: 101.132.69.202:2181
+  protocol: zookeeper://
+  client: zkclient
